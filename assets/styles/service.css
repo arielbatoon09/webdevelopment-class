@@ -1,6 +1,7 @@
 #service {
   background: #F1EFEF;
   padding: 72px 24px;
+  height: 90vh;
 }
 
 .service-wrapper {
@@ -24,4 +25,10 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  #service {
+    height: 100%;
+  }
 }
