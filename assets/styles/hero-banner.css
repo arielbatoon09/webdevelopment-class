@@ -1,0 +1,43 @@
+#hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 72px 24px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin: 18px 0;
+}
+
+.hero-image {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-image img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1023.9px) {
+  #hero-banner {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+}

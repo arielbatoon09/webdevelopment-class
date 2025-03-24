@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout - Flexbox Edition</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo">Web Development</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰</label>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Service Section -->
+        <section id="service" style="height: 90vh;">
+            <div class="container">
+                <div class="service-wrapper">
+                    <!-- Header -->
+                    <div class="service-header">
+                        <h3>My Services</h3>
+                        <p>Learn more about my services</p>
+                    </div>
+
+                    <!-- Services List -->
+                    <div class="service-list">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="../assets/image/developer-banner.jpg" alt="Website Development" />
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="../assets/image/developer-banner.jpg" alt="Website Development" />
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="../assets/image/developer-banner.jpg" alt="Website Development" />
+                                <h3>Website Development</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>© 2025 - Web Development. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
