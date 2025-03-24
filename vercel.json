@@ -1,6 +1,6 @@
 {
   "redirects": [
-    { "source": "/pages/:slug", "destination": "/:slug", "permanent": true }
+    { "source": "/pages/:slug.html", "destination": "/:slug", "permanent": true }
   ],
   "rewrites": [
     { "source": "/:slug", "destination": "/pages/:slug.html" }
