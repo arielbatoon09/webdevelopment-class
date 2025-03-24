@@ -57,6 +57,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #contact {
+    height: 100%;
+  }
+  
   .form-row {
     flex-direction: column;
     gap: 4px;
