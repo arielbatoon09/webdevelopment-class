@@ -3,6 +3,7 @@
     { "source": "/pages/:slug.html", "destination": "/:slug", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/:slug", "destination": "/pages/:slug.html" }
+    { "source": "/:slug", "destination": "/pages/:slug.html" },
+    { "source": "/:path*/:slug", "destination": "/pages/:path*/:slug.html" }
   ]
 }
